@@ -20,4 +20,4 @@ function calculator(a, b, c) {
     return "Invalid operation";
   }
 }
-module.exports = calculator;
+exports.calculator = calculator;
