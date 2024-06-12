@@ -1,5 +1,5 @@
 {
-  "name": "demo_calculator_npm_package",
+  "name": "demo_calc_npm_package",
   "version": "1.0.0",
   "description": "this is just demo npm package for learning purpose",
   "main": "index.js",
