@@ -9,11 +9,13 @@ function calculator(a, b, c) {
   } else if (c === "/") {
     return `Result will be ${a / b}`;
   } else if (c === ">") {
-    return a > b ? "a is greater than b" : "a is not greater than b";
+    return a > b
+      ? `${a} is greater than ${b}`
+      : `${a} is not greater than ${b}`;
   } else if (c === "<") {
-    return a < b ? "a is lesser than b" : "a is not lesser than b";
+    return a < b ? `${a} is lesser than ${b}` : `${a} is not lesser than ${b}`;
   } else if (c === "=") {
-    return a === b ? "a is equal to b" : "a is not equal to b";
+    return a === b ? `${a} is equal to ${b}` : `${a} is not equal to ${b}`;
   } else {
     return "Invalid operation";
   }
