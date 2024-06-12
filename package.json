@@ -1,0 +1,15 @@
+{
+  "name": "new_npm_package",
+  "version": "1.0.0",
+  "description": "this is just demo npm package for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "learning"
+  ],
+  "author": "Keshav Tulsyan",
+  "license": "ISC"
+}
